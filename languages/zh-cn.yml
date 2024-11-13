@@ -12,17 +12,17 @@ cv:
 
 search:
   label: 搜索
-  placeholder: 搜索文章内容
+  placeholder: 搜索本站内容
 
 friends:
-  label: 朋友
+  label: 合作伙伴
   apply: 交换友链
 
 socials:
-  label: 账号
+  label: 平台账号
 
 concats:
-  label: 联系
+  label: 联系方式
 
 timeline:
   name: 时间线
