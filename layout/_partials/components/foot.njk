@@ -38,9 +38,9 @@
     </div>
     <div class="copyright">
       {% if config.language == 'en' %}
-        ©️ {{ moment().format('YYYY') }} {{ config.title }}
+        ©️ {{ moment().format('YYYY') }} {{ config.title }}&nbsp;<a href="{{ config.beian.url }}" target="_blank">{{ config.beian.title }}</a>
       {% else %}
-        ©️ {{ moment().format('YYYY') }} {{ config.title }}
+        ©️ {{ moment().format('YYYY') }} {{ config.title }}&nbsp;<a href="{{ config.beian.url }}" target="_blank">{{ config.beian.title }}</a>
       {% endif %}
     </div>
   </div>
